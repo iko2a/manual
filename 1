@@ -1,0 +1,15 @@
+git init - указываем место, в котором будет репозиторий (С/Git/название новой папки)
+git add . добавляем только что созданный текстовый файл
+git commit -m "first commit"
+git remote add origin https://github.com/iko2a/репозиторий в который закачается наш файл
+git push -u origin master или main в зависимости как называется ветка
+git branch Branch2 - создаем новую ветку с названием Branch2
+git checkout Branch2 - переключились на новую ветку
+Создали у себя на диске С новый текстовый файл 2.txt
+git add . - добавили этот файл
+git status - все должно быть зеленым
+git commit -m "second commit"
+git push -u origin Branch2 - закачали файл 2.txt в Github Branch2
+git checkout main - переключились на основную ветку
+git merge Branch2 - объединяем нашу новую ветку с основной
+git push -u origin main закачали объединенную ветку на основную branch в github.
